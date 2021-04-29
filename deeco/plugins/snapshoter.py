@@ -2,7 +2,7 @@ import os
 
 import jsonpickle as json
 
-from core.runnable import SimPlugin
+from deeco.runnable import SimPlugin
 
 
 class Snapshoter(SimPlugin):

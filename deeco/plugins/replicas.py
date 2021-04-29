@@ -1,4 +1,4 @@
-from core.runnable import NodePlugin
+from deeco.runnable import NodePlugin
 
 
 class Replicas(NodePlugin):

@@ -1,9 +1,9 @@
 from abc import abstractmethod
 
-from core.deeco import EnsembleDefinition, BaseKnowledge
-from core.deeco import Role
-from core.position import Position
-from robot import Robot
+from deeco.core import EnsembleDefinition, BaseKnowledge
+from deeco.core import Role
+from deeco.position import Position
+from .robot import Robot
 
 
 # Role

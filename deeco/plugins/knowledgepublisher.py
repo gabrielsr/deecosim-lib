@@ -1,5 +1,5 @@
-from core.runnable import NodePlugin
-from core.packets import KnowledgePacket
+from deeco.runnable import NodePlugin
+from deeco.packets import KnowledgePacket
 
 
 class KnowledgePublisher(NodePlugin):

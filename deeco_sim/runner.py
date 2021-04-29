@@ -1,15 +1,15 @@
-from core.deeco import Node
-from core.sim import Sim
-from core.position import Position
-from plugins.identity_replicas import IdentityReplicas
-from plugins.simplenetwork import SimpleNetwork
-from plugins.walker import Walker
-from plugins.knowledgepublisher import KnowledgePublisher
-from plugins.ensemblereactor import EnsembleReactor
+from deeco.core import Node
+from deeco.sim import Sim
+from deeco.position import Position
+from deeco.plugins.identity_replicas import IdentityReplicas
+from deeco.plugins.simplenetwork import SimpleNetwork
+from deeco.plugins.walker import Walker
+from deeco.plugins.knowledgepublisher import KnowledgePublisher
+from deeco.plugins.ensemblereactor import EnsembleReactor
 
 from robot import Robot
 from robotgroup import RobotGroup
-from plugins.snapshoter import Snapshoter
+from deeco.plugins.snapshoter import Snapshoter
 
 print("Running simulation")
 

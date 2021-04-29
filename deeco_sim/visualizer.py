@@ -1,3 +1,5 @@
+import __init__
+
 import matplotlib
 matplotlib.use("Qt5Agg")
 
@@ -6,11 +8,13 @@ from matplotlib.figure import Figure
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 import sys
-from core.deeco import Node
 
-from core import simloader
-from core.deeco import BaseKnowledge
-from core.sim import Sim
+
+from deeco import simloader
+
+from deeco.core import Node
+from deeco.core import BaseKnowledge
+from deeco.sim import Sim
 
 colors = ["red", "green", "blue", "yellow", "black", "lime", "cyan", "orange", "orange", "orange", "orange"]
 

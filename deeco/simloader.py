@@ -9,7 +9,7 @@ class Logs:
 		self.log = log
 		self.final = final
 
-
+# 
 def load(logDir):
 	print("Loading logs...")
 

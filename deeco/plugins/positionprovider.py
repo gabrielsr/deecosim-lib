@@ -1,4 +1,4 @@
-from core.deeco import Node
+from deeco.core import Node
 
 
 class PositionProvider:

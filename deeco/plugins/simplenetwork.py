@@ -2,10 +2,10 @@ import copy
 from random import Random
 from functools import partial
 
-from core.deeco import Node
-from core.packets import Packet
-from core.runnable import SimPlugin
-from core.runnable import NodePlugin
+from deeco.core import Node
+from deeco.packets import Packet
+from deeco.runnable import SimPlugin
+from deeco.runnable import NodePlugin
 
 
 class SimpleNetworkDevice(NodePlugin):

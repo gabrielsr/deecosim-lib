@@ -1,6 +1,6 @@
-from core.runnable import NodePlugin
-from core.position import Position
-from plugins.positionprovider import PositionProvider
+from deeco.runnable import NodePlugin
+from deeco.position import Position
+from deeco.plugins.positionprovider import PositionProvider
 
 
 class Walker(NodePlugin, PositionProvider):

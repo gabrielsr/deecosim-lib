@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
-from core.runnable import *
-from core.packets import KnowledgePacket
+from deeco.runnable import *
+from deeco.packets import KnowledgePacket
 
 class Node(Runnable):
 	counter = 0

@@ -1,13 +1,12 @@
 from random import Random
 
-from core.deeco import BaseKnowledge
-from core.deeco import Component
-from core.deeco import Node
-from core.deeco import Role
-from core.deeco import process
-from core.position import Position
-from core.packets import TextPacket
-
+from deeco.core import BaseKnowledge
+from deeco.core import Component
+from deeco.core import Node
+from deeco.core import Role
+from deeco.core import process
+from deeco.position import Position
+from deeco.packets import TextPacket
 
 # Role
 class Rover(Role):

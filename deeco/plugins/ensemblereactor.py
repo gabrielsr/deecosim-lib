@@ -1,11 +1,11 @@
-from core.runnable import NodePlugin
-from core.deeco import EnsembleDefinition
-from core.deeco import EnsembleInstance
-from core.deeco import Node
-from core.packets import Packet
-from core.packets import KnowledgePacket
-from core.packets import PacketType
-from core.packets import DemandPacket
+from deeco.runnable import NodePlugin
+from deeco.core import EnsembleDefinition
+from deeco.core import EnsembleInstance
+from deeco.core import Node
+from deeco.packets import Packet
+from deeco.packets import KnowledgePacket
+from deeco.packets import PacketType
+from deeco.packets import DemandPacket
 
 
 class DemandRecord:

@@ -1,7 +1,7 @@
 import types
 from queue import PriorityQueue
 
-from core.runnable import *
+from .runnable import *
 
 
 class Timer:

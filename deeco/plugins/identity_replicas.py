@@ -1,7 +1,7 @@
 import copy
 
-from core.deeco import Node
-from core.runnable import SimPlugin
+from deeco.core import Node
+from deeco.runnable import SimPlugin
 
 
 class IdentityReplicas(SimPlugin):
